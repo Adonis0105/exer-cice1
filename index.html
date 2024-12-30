@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice_1</title>
+
+    <link rel="stylesheet" href="Assets/styles/Millieu.css">
+    <link rel="stylesheet" href="Assets/styles/barre_rouge.css">
+    <link rel="stylesheet" href="Assets/styles/gallery-container.css">
+    <link rel="stylesheet" href="Assets/styles/sport_entrainement.css">
+    <link rel="stylesheet" href="Assets/styles/tableau.css">
+    <link rel="stylesheet" href="Assets/styles/last_partie.css">
+    <link rel="stylesheet" href="Assets/styles/footer.css">
+
+ <!-- le cdnjs pour le awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   
+    <link rel="stylesheet" href="Assets/styles/main.css">
+    
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <div style="background-color: #111;" class="navigation">
+        <div>
+            <span> 📧 info@mail.com</span>
+            <span>📞 +012 345 6789</span>
+        </div>
+        <div>
+            <a href="#">About /</a>
+            <a href="#">Privacy /</a>
+            <a href="#">Terms /</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <!-- Millieu -->
+    <div class="Millieu">
+
+        <img style="margin-left: 100px; height: 50px;" src="Assets/img/logo2.png" >
+        <img src="Assets/img/html.png" height="100px" width="500px" alt="">
+        <div style="margin-right: 100px;" class="recherche">
+            <input type="text" placeholder="recherche">
+            <button>🔍</button>
+        </div>
+    </div>
+
+
+    <!-- barre -->
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Dropdown</a>
+            </li>
+            <li><a href="#">Single Page</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        
+
+        <div  style="margin-top: 10px;">
+            <a href="#" style="color: rgb(255, 249, 249); margin-right: 10px;; height: 10px; border: 1 solid #ffff;"><i class="fab fa-twitter"></i></a>
+
+            <a href="#" style="color: rgb(255, 255, 255); margin-right: 10px; "><i class="fab fa-facebook"></i></a>
+            <a href="#" style="color: rgb(255, 255, 255); margin-right: 10px;"><i class="fab fa-linkedin"></i></a>
+            <a href="#" style="color: rgb(255, 255, 255); margin-right: 10px;"><i class="fab fa-instagram"></i></a>
+            <a href="#" style="color: rgb(255, 255, 255);"><i class="fab fa-youtube"></i></a>
+        </div>
+    </nav>
+
+<!-- les grids en bas des reseaux sociaux -->
+
+    <div class="gallery-container">
+        <div class="carousel">
+            <div class="carousel-slide">
+                <img style="object-fit:cover;" src="Assets/img/téléchargement.jpeg" height="400px" width="9000px" alt="Image 1">
+                <div class="carousel-caption">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                </div>
+                <a href="#" class="carousel-prev"><i class="fas fa-chevron-left"></i></a>
+                <a href="#" class="carousel-next"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+        
+        <div class="image-grid">
+            <div class="image-card">
+                <img src="Assets/img/2.jpg" height="20px" width="30px" alt="Image 2">
+                <div class="image-overlay">
+                    <h3>Lorem ipsum dolor sit</h3>
+                </div>
+            </div>
+            <div class="image-card">
+                <img src="Assets/img/3.jpg" alt="Image 3">
+                <div class="image-overlay">
+                    <h3>Lorem ipsum dolor sit</h3>
+                </div>
+            </div>
+            <div class="image-card">
+                <img src="Assets/img/4.jpg" alt="Image 4">
+                <div class="image-overlay">
+                    <h3>Lorem ipsum dolor sit</h3>
+                </div>
+            </div>
+            <div class="image-card">
+                <img src="Assets/img/5.jpg" alt="Image 5">
+                <div class="image-overlay">
+                    <h3>Lorem ipsum dolor sit</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- une autre partie -->
+
+
+    <div class="container">
+        <div class="category">
+            <div class="header">
+                <h2>Sports</h2>
+                <div class="navigation">
+                    <button class="arrow prev">&lt;</button>
+                    <button class="arrow next">&gt;</button>
+                </div>
+            </div>
+            <hr>
+            <div class="carousel">
+                <div class="card">
+                    <img src="Assets/img/1.jpg" alt="Sport 1">
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+                <div class="card">
+                    <img src="Assets/img/3.jpg" alt="Sport 2">
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+            </div>
+        </div>
+        <div class="category">
+            <div class="header">
+                <h2>Technology</h2>
+                <div class="navigation">
+                    <button class="arrow prev">&lt;</button>
+                    <button class="arrow next">&gt;</button>
+                </div>
+            </div>
+            <hr>
+            <div class="carousel">
+                <div class="card">
+                    <img src="Assets/img/1.jpg" alt="Technology 1">
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+                <div class="card">
+                    <img src="Assets/img/4.jpg" alt="Technology 2">
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="category">
+            <div class="header">
+                <h2>Business</h2>
+                <div class="navigation">
+                    <button class="arrow prev">&lt;</button>
+                    <button class="arrow next">&gt;</button>
+                </div>
+            </div>
+            <hr>
+            <div class="carousel">
+                <div class="card">
+                    <img src="Assets/img/1.jpg" alt="Sport 1">
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+                <div class="card">
+                    <img src="Assets/img/3.jpg" alt="Sport 2">
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+            </div>
+        </div>
+        <div class="category">
+            <div class="header">
+                <strong><h2>ENTRAINEMENT</h2></strong>
+                <div class="navigation">
+                    <button class="arrow prev">&lt;</button>
+                    <button class="arrow next">&gt;</button>
+                </div>
+            </div>
+            <hr>
+            <div class="carousel">
+                <div class="card">
+                    <img src="Assets/img/1.jpg" alt="Technology 1">
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+                <div class="card">
+                    <img src="Assets/img/4.jpg" alt="Technology 2">
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- partie tableau -->
+
+    <div class="tab-row">
+        <div class="tab-container">
+            <div class="tabs">
+                <!-- la partie des tables rouges noir et blanc -->
+                <div class="tab active" data-tab="featured1">Featured News</div>
+                <div class="tab" data-tab="popular1">Popular News</div>
+                <div class="tab" data-tab="latest1">Latest News</div>
+            </div>
+
+            <div class="tab-content">
+                <div class="tab-panel active" id="featured1">
+                    <div class="news-item">
+                        <img src="Assets/img/1.jpg" height="" alt="News Image">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="news-item">
+                        <img src="Assets/img/2.jpg" alt="News Image">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="news-item">
+                        <img src="Assets/img/3.jpg" alt="News Image">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+
+
+                <div class="tab-panel" id="popular1">
+                    <div class="news-item">
+                        <img src="Assets/img/8.jpg" alt="News Image">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="news-item">
+                        <img src="https://via.placeholder.com/150" alt="News Image">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                <div class="tab-panel" id="latest1">
+                    <div class="news-item">
+                        <img src="https://via.placeholder.com/150" alt="News Image">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="news-item">
+                        <img src="https://via.placeholder.com/150" alt="News Image">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <div class="tab-container">
+            <div class="tabs">
+                <!-- la partie des tables rouges noir et blanc -->
+                <div class="tab active" data-tab="mostviewed2">Most Viewed</div>
+                <div class="tab" data-tab="mostread2">Most Read</div>
+                <div class="tab" data-tab="mostrecent2">Most Recent</div>
+            </div>
+
+            <div class="tab-content">
+                <div class="tab-panel active" id="mostviewed2">
+                    <div class="news-item">
+                        <img src="Assets/img/4.jpg" alt="News Image">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="news-item">
+                        <img src="Assets/img/5.jpg" alt="News Image">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="news-item">
+                        <img src="Assets/img/6.jpg" alt="News Image">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    
+                </div>
+                <div class="tab-panel" id="mostread2">
+                    <div class="news-item">
+                        <img src="https://via.placeholder.com/150" alt="News Image">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="news-item">
+                        <img src="https://via.placeholder.com/150" alt="News Image">
+                        <p>Lorem ipsum dolor sit amet</p>
+
+                    </div>
+
+                    
+                </div>
+                <div class="tab-panel" id="mostrecent2">
+                    <div class="news-item">
+                        <img src="https://via.placeholder.com/150" alt="News Image">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="news-item">
+                        <img src="https://via.placeholder.com/150" alt="News Image">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- la dernière partie du site -->
+    <div  class="container">
+        <div class="grid">
+
+          <div class="item">
+            <img src="Assets/img/aa1.jpeg" alt="Image 1">
+            <p>Lorem ipsum dolor sit</p>
+          </div>
+
+          <div class="item">
+            <img src="Assets/img/aa1.jpeg" alt="Image 2">
+            <p>Lorem ipsum dolor sit</p>
+          </div>
+
+          <div class="item">
+            <img src="Assets/img/aa1.jpeg" alt="Image 3">
+            <p>Lorem ipsum dolor sit</p>
+          </div>
+
+          <div class="item">
+            <img src="Assets/img/aa6.jpeg" alt="Image 4">
+            <p>Lorem ipsum dolor sit</p>
+          </div>
+
+          <div class="item">
+            <img src="Assets/img/aa6.jpeg" alt="Image 5">
+            <p>Lorem ipsum dolor sit</p>
+          </div>
+
+          <div class="item">
+            <img src="Assets/img/aa6.jpeg" alt="Image 6">
+            <p>Lorem ipsum dolor sit</p>
+          </div>
+
+          <div class="item">
+            <img src="Assets/img/aa7.jpeg" alt="Image 6">
+            <p>Lorem ipsum dolor sit</p>
+          </div>
+
+          <div class="item">
+            <img src="Assets/img/aa7.jpeg" alt="Image 6">
+            <p>Lorem ipsum dolor sit</p>
+          </div>
+
+          <div class="item">
+            <img src="Assets/img/aa7.jpeg" alt="Image 6">
+            <p>Lorem ipsum dolor sit</p>
+          </div>
+        </div>
+        
+        <div class="sidebar">
+          <h2>Read More</h2>
+          <ul>
+            <li> Lorem ipsum dolor sit amet</li>
+            <li> Pellentesque tincidunt enim libero</li>
+            <li> Morbi id finibus diam vel pretium enim</li>
+            <li> Duis semper sapien in eros euismod sodales</li>
+            <li> Vestibulum cursus lorem nibh</li>
+            <li> Morbi ullamcorper vulputate metus non eleifend</li>
+            <li> Etiam vitae elit felis sit amet</li>
+            <li> Nullam congue massa vitae quam</li>
+            <li> Proin sed ante rutrum</li>
+            <li> Curabitur vel lectus</li>
+          </ul>
+        </div>
+      </div>
+
+
+
+
+    <footer  class="footer" >
+        <div class="f1">
+
+            <div class="un" >
+                <h3 >Get in Touch</h3>
+                <hr>
+                <hr>
+                <p>123 News Street, NY, USA</p>
+                <p>info@example.com</p>
+                <p>+123-456-7890</p>
+                <div class="un_1" >
+                    <a  href="#" ><i class="fab fa-twitter"></i></a>
+
+                    <a href="#" ><i class="fab fa-facebook"></i></a>
+                    <a href="#" ><i class="fab fa-linkedin"></i></a>
+                    <a href="#" ><i class="fab fa-instagram"></i></a>
+                    <a id="autre" href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+    
+            <div class="deux" >
+                <h3>Useful Links</h3>
+                <hr>
+                <hr>
+                <ul>
+                    <li><a href="#" >Lorem ipsum</a></li>
+                    <li><a href="#" >Pellentesque</a></li>
+                    <li><a href="#" >Aenean vulputate</a></li>
+                    <li><a href="#" >Vestibulum sit amet</a></li>
+                    <li><a href="#" >Nam dignissim</a></li>
+                </ul>
+            </div>
+    
+            <div class="trois">
+            <h3 >Quick Links</h3>
+                <hr>
+                <hr>
+                <ul >
+                    <li><a href="#" >Lorem ipsum</a></li>
+                    <li><a href="#" >Pellentesque</a></li>
+                    <li><a href="#" >Aenean vulputate</a></li>
+                    <li><a href="#" >Vestibulum sit amet</a></li>
+                    <li><a href="#" >Nam dignissim</a></li>
+                </ul>
+            </div>
+    
+            <div class="quatre" >
+                <h3 >Newsletter</h3>
+                <hr>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed porta dui. Class aptent taciti sociosqu.</p>
+                <form style="display: flex;">
+                    <input type="email" placeholder="Your email here" >
+                    <button type="submit" >Submit</button>
+                </form>
+            </div>
+        </div>
+    
+        <div class="finn" >
+            <a href="#" >Terms of use</a> |
+            <a href="#" >Privacy policy</a> |
+            <a href="#" >Cookies</a> |
+            <a href="#" >Accessibility help</a> |
+            <a href="#" >Advertise with us</a> |
+            <a id="except" href="#" >Contact us</a>
+        
+        </div>
+
+            <div class="fino" >
+                <p style="margin-left: 140px; margin-right:20px ;">Copyright © <a href="#" style="color: rgb(255, 0, 0); text-decoration: none;">HTML Codex</a>. All Rights Reserved</p>
+                <p style="margin-left: 650px;">Template <a style="color: red; text-decoration: none;"href="#">By HTML Codex</a></p>
+            </div>
+
+    </footer>
+    
+</body>
+</html>
+
+

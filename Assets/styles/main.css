@@ -1,0 +1,133 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    transition: opacity 0.3s;
+}
+
+.social-icon:hover {
+    opacity: 0.7;
+}
+   
+        .row {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px; /* Espace entre les sections */
+        }
+
+/* Style pour chaque section */
+.section {
+    flex: 1;
+    margin-bottom: 40px;
+    max-width: 48%; /* Chaque section prend environ la moitié de la ligne */
+}
+
+/* Boutons du carrousel */
+button.prev, button.next {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button.prev {
+    margin-right: 10px;
+}
+
+button.next {
+    margin-left: 10px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.carousel-item p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 4px 8px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+
+    margin: 0;
+    text-align: center;
+}
+
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.carousel-track {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    width: calc(100% - 80px); /* Ajuste pour inclure les boutons */
+}
+
+.carousel-item {
+    flex: 0 0 200px;
+    margin: 0 10px;
+    text-align: center;
+    flex: 0 0 150px;
+    position: relative;
+    flex: 0 0 30%; /* Ajuste la largeur des éléments */
+    position: relative;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+hr {
+    margin: 10px 0;
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+}
+
+
+.carousel-content {
+    display: flex;
+    gap: 10px;
+}
+

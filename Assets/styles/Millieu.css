@@ -1,0 +1,69 @@
+.Millieu {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 2px solid #f76c6c;
+}
+.recherche {
+    position: relative;
+    display: inline-block;
+}
+
+.recherche input {
+    padding: 10px;
+    padding-right: 35px; /* Espace pour l'icône */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 250px;
+}
+
+.recherche button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    color: #333;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.recherche button:hover {
+    color: #ffffff;
+}
+
+        /* Millieu */
+        
+
+        .Millieu h1 {
+            margin-left: 100px;
+            color: #f76c6c;
+            font-size: 28px;
+        }
+
+        .Millieu .recherche {
+            display: flex;
+            align-items: center;
+        }
+
+        .Millieu .recherche input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .Millieu .recherche button {
+            padding: 10px 15px;
+            border: none;
+            background-color: #ffffff;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
